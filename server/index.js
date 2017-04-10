@@ -6,7 +6,7 @@ const getMimeType = require('./lib/mimetype');
 
 http
   .createServer(requestHandler)
-  .listen(process.env.PORT || 3000, callback);
+  .listen(process.env.PORT || 3000, onHTTPListen);
 
 function requestHandler(req, res) {
   console.log(`${req.method} ${req.url}`);
@@ -16,9 +16,9 @@ function requestHandler(req, res) {
 
   let pathname = `./public/${parsedUrl.pathname}`;
 
-  fs.exists(pathname, callback);
+  fs.exists(pathname, onExistCheck);
 
-  function callback(exist) {
+  function onExistCheck(exist) {
     // Return 404 if file doesn't exist
     if (!exist) {
       res.statusCode = 404;
@@ -46,7 +46,7 @@ function requestHandler(req, res) {
   }
 }
 
-function callback(err) {
+function onHTTPListen(err) {
   if (err) {
     throw err;
   }
