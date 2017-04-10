@@ -1,6 +1,8 @@
 # minor-rtw
 Real Time Webapp (with minimal package usage)
 
+[![Build Status](https://semaphoreci.com/api/v1/rijkvanzanten/minor-rtw/branches/master/shields_badge.svg)](https://semaphoreci.com/rijkvanzanten/minor-rtw)
+
 ## Goals
 -  Use preferably no packages whatsoever
 -  Implement a feasible WebSocket connection
