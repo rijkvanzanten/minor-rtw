@@ -7,7 +7,7 @@ Real Time Webapp (with minimal package usage)
 -  Use [Karma's Git Msg strategy](http://karma-runner.github.io/1.0/dev/git-commit-msg.html)
 
 ## TODOs & Wishlist
--  [ ] Server static files through http
+-  [x] Server static files through http
 -  [ ] Setup WebSocket (w/ working round-trip)
 
 ## License
