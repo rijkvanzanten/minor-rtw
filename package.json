@@ -1,0 +1,22 @@
+{
+  "name": "minor-rtw",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Real Time Webapp (with minimal package usage)",
+  "scripts": {
+    "lint": "xo"
+  },
+  "repository": "rijkvanzanten/minor-rtw",
+  "author": "Rijk van Zanten <rijkvanzanten@me.com> (rijks.website)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rijkvanzanten/minor-rtw/issues"
+  },
+  "homepage": "https://github.com/rijkvanzanten/minor-rtw#readme",
+  "xo": {
+    "space": true
+  },
+  "devDependencies": {
+    "xo": "^0.18.1"
+  }
+}
