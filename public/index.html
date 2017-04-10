@@ -2,3 +2,13 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Rule The World | Rijk van Zanten</title>
 <h1>👑</h1>
+<script>
+  // Create WebSocket connection.
+  const socket = new WebSocket('ws://localhost:3000');
+
+  socket.addEventListener('open', onSocketOpen);
+
+  function onSocketOpen() {
+    console.log('Socket connected');
+  }
+</script>

@@ -10,7 +10,8 @@ Real Time Webapp (with minimal package usage)
 
 ## TODOs & Wishlist
 -  [x] Server static files through http
--  [ ] Setup WebSocket (w/ working round-trip)
+-  [x] Connect WebSocket
+-  [ ] Create working round-trip
 
 ## License
 MIT License
