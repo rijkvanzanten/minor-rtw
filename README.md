@@ -1,6 +1,8 @@
 # minor-rtw
 Real Time Webapp (with minimal package usage)
 
+See https://github.com/rijkvanzanten/luaus also!
+
 ## Goals
 -  Use preferably no packages whatsoever
 -  Implement a feasible WebSocket connection
